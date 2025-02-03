@@ -72,7 +72,7 @@ export default function Home() {
       
     return <>
     
-        <Header/>
+        
         
         <div className="absolute top-0" style={{width:"100vw", zIndex:"-1"}}>
         <ImagesSlider className="h-[40rem]" images={images1} >
@@ -253,7 +253,7 @@ export default function Home() {
           </div>
         </div>
         <div style={{width:"100vw", height:"0.8px", backgroundColor:"white"}}></div>
-        <Footer/>
+        
         
         
         
