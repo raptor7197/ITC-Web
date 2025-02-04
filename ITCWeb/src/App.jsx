@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home'
 import Header from './Pages/Components/Header'
 import Footer from './Pages/Components/Footer'
+import Committee from './Pages/Committee'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
     <Header/>
     <Routes>
       <Route path="/" element={<Home/>}/>
+      <Route path="/Committee" element={<Committee/>}/>
     </Routes>
      
      <Footer/>
