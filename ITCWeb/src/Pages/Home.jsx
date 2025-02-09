@@ -90,9 +90,9 @@ export default function Home() {
         }}
         className="z-50 flex flex-col justify-center items-center"
       >
-        <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4 flex flex-col gap-4">
+        <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-500 py-4 flex flex-col gap-4">
 
-        <div>Welcome to the 9th Edition of IEEE </div> <div>International Test Conference-India 2025</div>
+        <div>Welcome to the 9th Edition of IEEE </div> <div>International Test Conference-India </div><div>2025</div>
         </motion.p>
         
       </motion.div>
@@ -100,7 +100,8 @@ export default function Home() {
     </ImagesSlider>
         </div>
         <div className="flex flex-row justify-center lg:mt-[20rem] md:mt-[23rem] mt-[17rem]">
-        <a href="#" style={{zIndex:"50"}}>
+        <a href="#" style={{zIndex:"1"}}>
+{/* visible upon side bar so decreased z index */}
           <br />
           <br />
         <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
@@ -110,7 +111,7 @@ export default function Home() {
         </a>
         </div>
         <div className="flex flex-col md:flex-row lg:flex-row items-center gap-12 md:gap-0 lg:gap-0 justify-around mt-56">
-        <a href="https://www.google.com">
+        <a href="#">
         <StarBorder
   className=""
   color="lightgreen"
