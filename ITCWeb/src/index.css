@@ -12,6 +12,7 @@ html{
   overflow-x: hidden;
   background-color: black;
   overscroll-behavior-y: none;
+  font-size: 1.2vw;
 }
 
 body{
