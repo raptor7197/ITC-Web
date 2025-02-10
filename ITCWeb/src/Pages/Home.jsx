@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import react from 'react'
 import { BrowserRouter } from 'react-router-dom';
-import {ImagesSlider} from './Components/ui/images-slider';
+import {ImagesSlider} from '../components/ui/images-slider';
 import StarBorder from "./Components/StarBorder/StarBorder";
 import ShinyText from '../components/ui/ShinyText/ShinyText';
 import LogoWall from '../components/ui/LogoWall/LogoWall';
@@ -30,9 +30,9 @@ import {
 
 export default function Home() {
     const images1 = [
-        "https://lh3.googleusercontent.com/pw/AP1GczM3XCA505Jfn8incCIQvgLdtEbOny9stv026iFAQnuE5rmy6ZzmUPfbiXQZa5Pvt6XoM060RWjpgq1ne4bwRUNn0zgDz_82RAPycFPzkId3o__zOqAc3kytSPRP47mwaB9vanv8aOQ2Xnl532-fPr4=w1455-h970-s-no-gm?authuser=0",
-        "https://lh3.googleusercontent.com/pw/AP1GczN5jedpL36KyoHMSfffb2G1AJeWY0nlDHqjgQhhAHIr2xd8-PKdmNH9GL2nMKdxF6ryJn_Dk-cixVPTm3Uizb4B2ZZgpyOK83JcbbUmzivlXfyOHF_By6UuVbJl1x-BPHIgoh6L0Oq_bivIO13bOs4=w1455-h970-s-no-gm?authuser=0",
-        "https://lh3.googleusercontent.com/pw/AP1GczOshfa8fHfSWSMdTM3ybHYKRioVNr8Tja27dBYFTMMNH3lr8VPnXCkVTbL7F9Ah0i75vUGm8nQbqbDMGrP4WHZzjxqOiCyeTj6-LKqPvQi9rpb0c2uG-LKZGMzDwAHULiqcI42hPGYOpIvexTz5Awo=w1455-h970-s-no-gm?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AP1GczM3XCA505Jfn8incCIQvgLdtEbOny9stv026iFAQnuE5rmy6ZzmUPfbiXQZa5Pvt6XoM060RWjpgq1ne4bwRUNn0zgDz_82RAPycFPzkId3o__zOqAc3kytSPRP47mwaB9vanv8aOQ2Xnl532-fPr4=w1455-h970-s-no-gm?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AP1GczN5jedpL36KyoHMSfffb2G1AJeWY0nlDHqjgQhhAHIr2xd8-PKdmNH9GL2nMKdxF6ryJn_Dk-cixVPTm3Uizb4B2ZZgpyOK83JcbbUmzivlXfyOHF_By6UuVbJl1x-BPHIgoh6L0Oq_bivIO13bOs4=w1455-h970-s-no-gm?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AP1GczOshfa8fHfSWSMdTM3ybHYKRioVNr8Tja27dBYFTMMNH3lr8VPnXCkVTbL7F9Ah0i75vUGm8nQbqbDMGrP4WHZzjxqOiCyeTj6-LKqPvQi9rpb0c2uG-LKZGMzDwAHULiqcI42hPGYOpIvexTz5Awo=w1455-h970-s-no-gm?authuser=0",
       ];
 
       const images2 = [

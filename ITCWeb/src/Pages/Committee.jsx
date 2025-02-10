@@ -8,7 +8,7 @@ import SpotlightCard from './Spotlight Card/Spotlight';
 function createCard(mem){
     return (
         <div className="flex flex-row justify-center mt-12 mb-12">
-    <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(13, 114, 62, 0.36)">
+    <SpotlightCard className="custom-spotlight-card hover:scale-110 duration-200" spotlightColor="rgba(13, 114, 62, 0.36)">
    <CommCard
     link={mem.link}
     key={mem.id}

@@ -16,12 +16,9 @@ function App() {
     <Header/>
     <Routes>
       <Route path="/" element={<Home/>}/>
-<<<<<<< HEAD
-      
-      
-=======
+
       <Route path="/Committee" element={<Committee/>}/>
->>>>>>> e01e0d533cb420e0fbe7f0d38e118e3564bc8ff5
+
     </Routes>
      
      <Footer/>
