@@ -16,7 +16,13 @@ function App() {
     <Header/>
     <Routes>
       <Route path="/" element={<Home/>}/>
+
       <Route path="/Committee" element={<Committee/>}/>
+
+
+      <Route path="/Committee" element={<Committee/>}/>
+
+
     </Routes>
      
      <Footer/>

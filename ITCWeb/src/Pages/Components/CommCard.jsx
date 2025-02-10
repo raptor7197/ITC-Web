@@ -3,7 +3,7 @@ import React from "react"
 export default function CommCard(props){
     return (
     <a href={props.link}>
-    <div class="w-48">
+    <div class="w-48 ">
         <div>
             <img src={props.img}></img>
         </div>
