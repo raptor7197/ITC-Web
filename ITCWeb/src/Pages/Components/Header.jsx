@@ -28,7 +28,7 @@ const HomeList = [
 ]
 
 const AuthorList = [
-  { name: 'Call For Papers'},
+  { name: 'Call For Papers',href : "./Pages/ConferenceCFP.jsx"},
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
@@ -39,8 +39,8 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-transparent bg-opacity-50 backdrop-brightness-50">
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between pt-2 pb-3 lg:px-8">
+    <header className="bg-transparent bg-opacity-50 backdrop-brightness-75">
+      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between pt-1 pb-1 lg:px-8">
         <div className="flex lg:flex-1 gap-20">
           <a href="#" className="-m-1.5 pt-2">
             <span className="sr-only">Your Company</span>
@@ -102,7 +102,7 @@ export default function Example() {
           </Popover>
 
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white hover:text-green-500 " style={{transition:"0.2s"}}>
+            <PopoverButton   className="flex items-center gap-x-1 text-md/6 font-semibold text-white hover:text-green-500 " style={{transition:"0.2s"}}>
               Authors
               <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400" />
             </PopoverButton>
